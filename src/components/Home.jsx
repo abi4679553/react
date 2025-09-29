@@ -1,18 +1,34 @@
-import Logo from '../assests/275604-P5Z8TI-767.jpg'
+import Home from '../assests/Screenshot 2025-09-29 212123.png'
 function Home (){
     return (
-        <div className=" bg-blue-500 text-white flex  justify-between px-8 gap-5  py-5 shadow-red-500">
+        <div>
+        <div className='flex gap-10 px-10 border py-8 bg-red-700 text-white'>
             <div>
-              <img src={Logo}  alt='logo'  className=' h-10 w-10'/>
+                <p>Abi </p>
+            </div>
+            <div>
+            <input type='text' placeholder='enter search..'/>
+            </div>
+            <div className='flex gap-5 px-30 justify-between '>
+                <p>Track Order</p>
+                <p>Cart</p>
+                <p>Login/Signup</p>
+            </div>
+            </div>
+            <div className='flex gap-10  justify-evenly border py-5 bg-white'>
+                <p>Cakes</p>
+                <p>Theme Cakes</p>
+                <p>By Relationship</p>
+                <p>Desserts</p>
+                <p>Birthday</p>
+                <p>Anniversary</p>
+                <p>Occasions</p>
+                <p>Customized Cakes</p>
                 </div>
-                <div className="flex gap-10  ">
-                    <a>Home</a>
-                    <a>About</a>
-                    <a>Contact</a>
-                    <a>Services</a>
+                <div>
+                    <img src={Home} alt='home' />
                 </div>
 
-                
 
         </div>
     )
