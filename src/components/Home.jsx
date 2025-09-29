@@ -28,6 +28,10 @@ function Home (){
                 <div>
                     <img src={Home} alt='home' />
                 </div>
+                <div>
+                    <p>Menu</p>
+                    <p>What will you wish for?</p>
+                </div>
 
 
         </div>
