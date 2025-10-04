@@ -10,10 +10,10 @@ function Home() {
         <div>
             <div className='flex gap-10 px-10 border py-8 bg-red-700 text-white justify-between  sticky'>
                 <div>
-                    <p className='text-2xl'>Abi </p>
+                    <p className='text-4xl'>Abi </p>
                 </div>
                 <div>
-                    <input type='text' placeholder='enter search..' className='w-80 p-2 rounded-xl' />
+                    <input type='text' placeholder='enter search..' className='w-96 p-2 rounded-3xl' />
                 </div>
                 <div className='flex gap-20 px-30  '>
                     <p>Track Order</p>
