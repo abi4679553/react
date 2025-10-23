@@ -9,13 +9,13 @@ import img5 from '../assests/5.webp'
 export const Menu = () => {
   return (
     <div>
-         <div className='bg-pink-50 py-20 text-4xl '>
-                <div className=' text-center'>
+    
+                <div className=' text-center bg-pink-200 text-4xl p-16'>
                     <p className='text-red-700 '>Menu</p>
                     <p>What will you wish for?</p>
                 </div>
                 
-                <div className='flex gap-5 min-w-full  h-60 justify-evenly px-10  py-20'>
+                <div className='flex gap-4 bg-pink-100 p-5'>
                     <div>
                         <img src={img1} alt="img1" className='text-center' />
                         <p className='text-center text-2xl'>CLASSIC</p>
@@ -39,6 +39,5 @@ export const Menu = () => {
                     </div>
                 </div>
             </div>
-    </div>
   )
 }
