@@ -39,6 +39,10 @@ const Footer = () => {
             <p>Coupons & Offers</p>
             <p>Download App</p>
         </div>
+      
+    </div>
+    <div className='bg-pink-200 text-center p-4 '>
+      <p>....🔷....</p>
     </div>
     </div>
   )
