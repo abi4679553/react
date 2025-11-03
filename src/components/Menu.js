@@ -38,6 +38,7 @@ export const Menu = () => {
                         <p className='text-center text-2xl'>COOKIES</p>
                     </div>
                 </div>
+                
             </div>
   )
 }

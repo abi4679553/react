@@ -1,8 +1,16 @@
 import React from 'react'
+import Home from './Home'
+import { Menu } from './Menu'
+import India from './India'
+import Ourpromise from './Ourpromise'
+import Magigal from './Magigal'
+import Recently from './Recently'
+
 
 export const Header = () => {
-  return (
-    <div>     <div className='flex gap-10 px-10 border py-8 bg-red-700 text-white justify-between  sticky'>
+    return (
+        <div>
+            <div className='flex gap-10 px-10 border py-8 bg-red-700 text-white justify-between  sticky'>
                 <div>
                     <p className='text-4xl'>Abi </p>
                 </div>
@@ -16,15 +24,25 @@ export const Header = () => {
                 </div>
             </div>
             <div className='flex gap-30  justify-evenly border py-5 bg-white'>
-                <p>Cakes</p>
-                <p>Theme Cakes</p>
-                <p>By Relationship</p>
-                <p>Desserts</p>
-                <p>Birthday</p>
-                <p>Anniversary</p>
-                <p>Occasions</p>
-                <p>Customized Cakes</p>
+               <a href="/Cake" >Cakes</a>
+                <a href='./themecake'>Theme Cakes</a>
+                <a>By Relationship</a>
+                <a>Desserts</a>
+                <a>Birthday</a>
+                <a>Anniversary</a>
+                <a>Occasions</a>
+                <a>Customized Cakes</a>
             </div>
-</div>
-  )
+            <Home />
+            <Menu />
+            <India />
+            <Ourpromise />
+            <Magigal />
+            <Recently />
+            
+
+
+        </div>
+        
+    )
 }
