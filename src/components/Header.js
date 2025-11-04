@@ -21,9 +21,8 @@ const Header = () => {
       </div>
 
       <div className='flex gap-30 justify-evenly border py-5 bg-white'>
-        {/* ✅ Either use navigate OR Link */}
-        {/* <a onClick={() => navigate('/cake')}>Cakes</a> */}
-        <Link to="/cake" className="cursor-pointer">Cakes</Link>
+     
+        <Link to="/cake" >Cakes</Link>
         <Link to="/themecake">Theme Cakes</Link>
         <Link to="#">By Relationship</Link>
         <Link to="#">Desserts</Link>
