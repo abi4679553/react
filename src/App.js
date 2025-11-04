@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Home from "./components/Home";
 import { Menu } from "./components/Menu";
@@ -11,28 +11,25 @@ import { Cake } from "./components/Cake";
 
 function App() {
   return (
-
     <div className="App">
-      <Header />
+      <Header />  
 
       <Routes>
-
+        <Route path="/" element={
+          <>
+            <Home />
+            <Menu />
+            <India />
+            <Ourpromise />
+            <Magigal />
+            <Recently />
+          </>
+        } />
         <Route path="/cake" element={<Cake />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Menu" element={<Menu />} />
-        <Route path="/India" element={<India />} />
-        <Route path="/Ourpromise" element={<Ourpromise />} />
-        <Route path="/Magigal" element={<Magigal />} />
-        <Route path="/Recently " element={<Recently  />} />
-
-
-
-
       </Routes>
-      
-      <Footer />
-    </div>
 
+      <Footer />  
+    </div>
   );
 }
 
