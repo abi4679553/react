@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Header } from "./components/Header";
+import Header from './components/Header';
 import Home from "./components/Home";
 import { Menu } from "./components/Menu";
 import India from "./components/India";
@@ -11,26 +11,28 @@ import { Cake } from "./components/Cake";
 
 function App() {
   return (
-    
-      <div className="App">
-        <Header />
 
-        <Routes>
-          
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Cake" element={<Cake />} />
-          <Route path="/Menu" element={<Menu />} />
-          <Route path="/India" element={<India />} />
-          <Route path="/Ourpromise" element={<Ourpromise />} />
-          <Route path="/Magigal" element={<Magigal />} />
-          <Route path="/Recently" element={<Recently />} />
+    <div className="App">
+      <Header />
 
-         
-        </Routes>
+      <Routes>
 
-        <Footer />
-      </div>
-    
+        <Route path="/cake" element={<Cake />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Menu" element={<Menu />} />
+        <Route path="/India" element={<India />} />
+        <Route path="/Ourpromise" element={<Ourpromise />} />
+        <Route path="/Magigal" element={<Magigal />} />
+        <Route path="/Recently " element={<Recently  />} />
+
+
+
+
+      </Routes>
+      
+      <Footer />
+    </div>
+
   );
 }
 

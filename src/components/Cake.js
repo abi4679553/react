@@ -1,7 +1,9 @@
-import React from 'react'
+  import React from 'react'
 
-export const Cake = () => {
-  return (
-    <div>Cake</div>
-  )
-}
+  export const Cake = () => {
+    return (
+      <div>
+        <p>jqjiwjij</p>
+      </div>
+    )
+  }
